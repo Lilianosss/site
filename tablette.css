@@ -1,6 +1,6 @@
 
 /* Desktop styles */
-@media (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 899px) {
     nav ul {
         flex-direction: row;
     }
