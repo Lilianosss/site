@@ -1,24 +1,39 @@
-/* Mobile styles */
-@media (max-width: 480px) {
+
+/* Desktop styles */
+@media (min-width: 900px) {
     nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
+        flex-direction: row;
     }
 
-    .rectangle-bleu {
-        height: 7vh;
-    }
+    /* En-tête */
+    header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid transparent;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    height: 88px;
+    padding: 0 32px;
+    margin-top: 0;
+    width: 100%;
+    z-index: 999;
 
+    }
     .menu-toggle {
-        width: 7vh;
+        width: 10vh;
     }
-
+    .rectangle-bleu {
+        height: 10vh;
+    }
     .dropdown-menu {
-        top: 7vh;
-        left: 31vw;
+        top: 10vh;
+        left: 31.5vw;
         width: auto;
-        padding: 0;
+        padding: 5;
     }
 
     .dropdown-menu .dropdown-item {
@@ -30,48 +45,48 @@
     .menu {
         color:#F5B82E;
         font-family:Sansita;
-        font-size:100%;
+        font-size:2vw;
         text-align:center;
     }
 
     .Home{
         position: fixed;
         top: 1vh;
-        left: 1vw; /* Utilisation de vw pour plus de flexibilité */
+        left: 0vw; /* Utilisation de vw pour plus de flexibilité */
         width:8vw;
-        height: 5vh;
+        height:8vh;
     }
     
     .lune {
         position: fixed;
         top: 1vh;
-        left: 13vw; /* Ajusté pour mieux s'adapter */
+        left: 8vw; /* Ajusté pour mieux s'adapter */
         width:8vw;
-        height: 5vh;
+        height:8vh;
     }
     
     .Galerie {
         position: fixed;
-        top: 0.2vh;
+        top: 0.5vh;
         left: 30vw; /* Ajusté pour mieux s'adapter */
-        width:16vw;
-        height:8vh;
+        width:10vw;
+        height:10vh;
     }
     
     .About {
         position: fixed;
         top: 0.2vh;
         left: 55vw; /* Ajusté pour mieux s'adapter */
-        width:18vw;
-        height:8vh;
+        width:11vw;
+        height:11vh;
     }
     
     .insta {
         position: fixed;
         top: 1.5vh;
-        left: 80vw; /* Ajusté pour mieux s'adapter */
+        left: 83vw; /* Ajusté pour mieux s'adapter */
         width:8vw;
-        height: 5vh;
+        height:8vh;
     }
     
     .linkedin {
@@ -79,39 +94,33 @@
         top: 1.5vh;
         left: 90vw; /* Ajusté pour mieux s'adapter */
         width:8vw;
-        height: 5vh;
-    }
-
-    h2 {
-        font-size: 5vh;
+        height:8vh;
         
     }
 
+
+    h2 {
+        font-size: 6vh;
+        margin-top: 10vh;
+    }
+
     p {
-        font-size: 1vh;
+        font-size: 3vh;
         margin: 2vh 0;
-        padding: 0 1vh;
-        text-align: center;
     }
 
     .moi {
-        width: 100vh;
+        width: 60vh;
+        margin-left: 70vh;
     }
 
     .info-about {
         font-family:"Sansita";
-        font-size:3vH;
+        font-size:4vh;
         text-align:center;
      }
-     .info-lieu {
-        font-family:"Sansita";
-        font-size:3vH;
-        text-align:left;
-     }
 
-    .gallery img {
-        width: 100%; /* Largeur des images pour les très petits écrans */
-    }
+     /* Effet au survol des images */
     
 }
 
@@ -129,7 +138,7 @@ td {
 /* Styling for the navigation links */
 .nav-menu table td a {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 24px;
     color: #F5B82E;
     padding: 5px 10px;
     display: block; /* Makes the whole cell clickable */
@@ -137,7 +146,7 @@ td {
 
 /* Arrow image styles */
 .nav-menu table td a img.arrow {
-    width: 25px; /* Adjust the width of the arrow image */
+    width: 50px; /* Adjust the width of the arrow image */
     height: auto;
     vertical-align: middle; /* Align the arrow image with text */
 }
