@@ -108,9 +108,11 @@ h2 {color:#F5B82E;
     
 }
 .intro {
-font-family:Sansita;
+font-family:Futura;
 font-size:3vh;
-text-align:center;
+margin: 0 auto;
+text-align:justify;
+
 
 }
 
