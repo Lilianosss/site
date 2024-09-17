@@ -113,7 +113,11 @@
         width: 60vh;
         margin-left: 70vh;
     }
+    .intro{
+        padding-left: 15vw;
+        padding-right: 15vw;
 
+    }
     .info-about {
         font-family:"Sansita";
         font-size:4vh;
@@ -122,38 +126,39 @@
 
      /* Effet au survol des images */
     
-}
 
-/* Remove table default styling */
-table {
-    border-collapse: collapse;
-    margin: 0 auto; /* Center the table */
-}
 
-td {
-    padding: 10px;
-    text-align: center; /* Align the text and images to the center */
-}
+    /* Remove table default styling */
+    table {
+        border-collapse: collapse;
+        margin: 0 auto; /* Center the table */
+    }
 
-/* Styling for the navigation links */
-.nav-menu table td a {
-    text-decoration: none;
-    font-size: 24px;
-    color: #F5B82E;
-    padding: 5px 10px;
-    display: block; /* Makes the whole cell clickable */
-}
+    td {
+        padding: 10px;
+        text-align: center; /* Align the text and images to the center */
+    }
 
-/* Arrow image styles */
-.nav-menu table td a img.arrow {
-    width: 50px; /* Adjust the width of the arrow image */
-    height: auto;
-    vertical-align: middle; /* Align the arrow image with text */
-}
+    /* Styling for the navigation links */
+    .nav-menu table td a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #F5B82E;
+        padding: 5px 10px;
+        display: block; /* Makes the whole cell clickable */
+    }
 
-/* Hover effect for the links */
-.nav-menu table td a:hover {
-    background-color: #3c4ab7;
-    color: white;
-    border-radius: 5px;
+    /* Arrow image styles */
+    .nav-menu table td a img.arrow {
+        width: 50px; /* Adjust the width of the arrow image */
+        height: auto;
+        vertical-align: middle; /* Align the arrow image with text */
+    }
+
+    /* Hover effect for the links */
+    .nav-menu table td a:hover {
+        background-color: #3c4ab7;
+        color: white;
+        border-radius: 5px;
+    }
 }
