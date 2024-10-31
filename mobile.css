@@ -1,0 +1,200 @@
+/* Mobile styles */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .rectangle-bleu {
+        height: 7vh;
+    }
+
+    .menu-toggle {
+        width: 7vh;
+    }
+
+    .dropdown-menu {
+        top: 7vh;
+        left: 31vw;
+        width: auto;
+        padding: 0;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 3vh;
+        font-family: "Sansita";
+        color:#F5B82E;
+        padding: 8px;
+    }
+    .menu {
+        color:#F5B82E;
+        font-family:Sansita;
+        font-size:100%;
+        text-align:center;
+    }
+
+    .Home{
+        position: fixed;
+        top: 1vh;
+        left: 1vw; /* Utilisation de vw pour plus de flexibilité */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .lune {
+        position: fixed;
+        top: 1vh;
+        left: 13vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .Galerie {
+        position: fixed;
+        top: 0.2vh;
+        left: 30vw; /* Ajusté pour mieux s'adapter */
+        width:16vw;
+        height:8vh;
+    }
+    
+    .About {
+        position: fixed;
+        top: 0.2vh;
+        left: 55vw; /* Ajusté pour mieux s'adapter */
+        width:18vw;
+        height:8vh;
+    }
+    
+    .insta {
+        position: fixed;
+        top: 1.5vh;
+        left: 80vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+    
+    .linkedin {
+        position: fixed;
+        top: 1.5vh;
+        left: 90vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height: 5vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+        
+    }
+
+    p {
+        font-size: 1vh;
+        margin: 2vh 0;
+        padding: 0 1vh;
+        text-align: center;
+    }
+
+    .moi {
+        width: 100vh;
+    }
+
+    .info-about2 {
+        font-family:"Sansita";
+        font-size:3vH;
+        text-align:center;
+     }
+     .info-lieu {
+        font-family:"Sansita";
+        font-size:3vH;
+        text-align:left;
+     }
+
+    .gallery img {
+        width: 100%; /* Largeur des images pour les très petits écrans */
+    }
+    .intro { 
+    font-size: 5vw;
+    }
+
+
+    /* Remove table default styling */
+    .table {
+        border-collapse: collapse;
+        margin: 0 auto; /* Center the table */
+    }
+
+    .td {
+        padding: 10px;
+        text-align: center; /* Align the text and images to the center */
+    }
+
+    /* Styling for the navigation links */
+    .nav-menu table td a {
+        text-decoration: none;
+        font-size: 10px;
+        color: #F5B82E;
+        padding: 5px 10px;
+        display: block; /* Makes the whole cell clickable */
+    }
+
+    /* Arrow image styles */
+    .nav-menu table td a img.arrow {
+        width: 25px; /* Adjust the width of the arrow image */
+        height: auto;
+        vertical-align: middle; /* Align the arrow image with text */
+    }
+
+    /* Hover effect for the links */
+    .nav-menu table td a:hover {
+        background-color: #3c4ab7;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .gallery {
+        margin-top: 10px;
+        margin: 0 auto; /* Centre horizontalement */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center; /* Centre les images dans la galerie */
+        align-items: center; /* Centre les images verticalement */
+    }
+
+    .gallery img {
+        width: 300px;
+        height: auto;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: transform 0.3s ease; /* Animation au survol */
+    }
+
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Masque la galerie par défaut */
+    .hidden {
+        display: none;
+    }
+
+    .info-about {
+        font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 10px 20px; /* Ajoute du padding pour ressembler à un bouton */
+            background-color: #ffffff; /* Couleur de fond pour le bouton */
+            border-radius: 5px; /* Arrondir les bords */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Ombre en dessous */
+            transition: box-shadow 0.3s ease, transform 0.3s ease; /* Animation d'ombre et de profondeur */
+    }
+     /* Style du bouton en mode nuit */
+     .night-mode .info-about {
+        background-color: #1b1b1d; /* Couleur de fond pour le bouton en mode nuit */
+        color: #d6d6d6; /* Texte en blanc pour contraster avec le fond noir */
+        box-shadow: 0px 4px 6px #0c0d12; /* Ombre claire pour le mode nuit */
+    }
+
+
+}

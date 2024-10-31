@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian Sauloup - Modélisation</title>
+    <link rel="icon" href="image/logo/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="police.css">
+    <link rel="stylesheet" href="tablette.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sansita+One" />
+    
+
+</head>
+
+<body>
+    <header>
+    
+<div class="rectangle-bleu"></div>
+        <nav>
+            <ul>
+                <a href="index.html"> 
+                    <img src="image/logo/Home.svg" alt="logo maison" class="Home">
+                </a>
+                    <img src="image\logo\Galerie.svg" alt="galerie" class="menu-toggle Galerie">
+                    
+                    <div class="dropdown-menu">
+                        <a href="photo.html" > <p class="menu">Photo</p></a>
+                        <a href="dessin.html" > <p class="menu">Dessin</p></a>
+                        <a href="modelisation.html" > <p class="menu">Modélisation</p></a>
+                    </div>
+                    
+                <a href="about.html">
+                    <img src="image\logo\À propos.svg" alt="à propos" class="About">
+                </a>
+                <a href="https://www.instagram.com/lilian_s94" target="_blank">
+                    <img src="image/logo/Instagram.svg" alt="logo instagram" class="insta">
+                </a>
+                <a href="https://fr.linkedin.com/in/lilian-sauloup-47181b272" target="_blank">
+                    <img src="image/logo/Linkedin.svg" alt="logo linkedin" class="linkedin">
+                </a>
+                <img src="image/logo/Moon.svg" alt="Activer le mode nuit" id="toggle-night-mode" class="lune" >
+                
+
+            </ul>
+        </nav>
+</header>
+    <main>
+       
+        <h2 id="page-title"><u>Modélisation</u></h2>
+        <div>
+            <p class="info-about" onclick="toggleGallery('gallery1')">
+                <b>1 - Première prise en main de Shapr3D |<i> Octobre 2024</i></b>
+            </p>
+        </div>
+        <div id="gallery1" class="gallery hidden" >
+            <img src="image/modélisation/IMG_0544.PNG" alt="IMG_0544" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0553.PNG" alt="IMG_0553" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0558.PNG" alt="IMG_0558" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0559.PNG" alt="IMG_0559" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0562.PNG" alt="IMG_0562" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0564.PNG" alt="IMG_0564" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0566.PNG" alt="IMG_0566" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0568.PNG" alt="IMG_0568" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0569.PNG" alt="IMG_0569" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0570.PNG" alt="IMG_0570" onclick="showImage(this)">
+            <img src="image/modélisation/IMG_0571.PNG" alt="IMG_0571" onclick="showImage(this)">
+        </div>
+         
+       
+            
+            
+        </div>
+        <div id="imageOverlay" class="image-overlay" onclick="hideImage()">
+            <img src="" alt="Agrandissement de l'image">
+        </div>
+
+        <a href="#page-title">
+            <img src="image\logo\Arrow_jaune.svg" alt="Retour en haut" style="transform: rotate(-90deg);" class="back-to-top">
+        </a>
+        
+    </main>
+
+    <footer>
+        <p style="font-family:Sansita;text-align:center;"><i><br>&copy; 2024 Lilian Sauloup</i></p>
+   </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>

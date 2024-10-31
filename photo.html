@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian Sauloup - Photo</title>
+    <link rel="icon" href="image/logo/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="police.css">
+    <link rel="stylesheet" href="tablette.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sansita+One" />
+    
+
+</head>
+
+<body>
+    <header>
+    
+<div class="rectangle-bleu"></div>
+        <nav>
+            <ul>
+                <a href="index.html"> 
+                    <img src="image/logo/Home.svg" alt="logo maison" class="Home">
+                </a>
+                    <img src="image\logo\Galerie.svg" alt="galerie" class="menu-toggle Galerie">
+                    
+                    <div class="dropdown-menu">
+                        <a href="photo.html" > <p class="menu">Photo</p></a>
+                        <a href="dessin.html" > <p class="menu">Dessin</p></a>
+                        <a href="modelisation.html" > <p class="menu">Modélisation</p></a>
+                    </div>
+                    
+                <a href="about.html">
+                    <img src="image\logo\À propos.svg" alt="à propos" class="About">
+                </a>
+                <a href="https://www.instagram.com/lilian_s94" target="_blank">
+                    <img src="image/logo/Instagram.svg" alt="logo instagram" class="insta">
+                </a>
+                <a href="https://fr.linkedin.com/in/lilian-sauloup-47181b272" target="_blank">
+                    <img src="image/logo/Linkedin.svg" alt="logo linkedin" class="linkedin">
+                </a>
+                <img src="image/logo/Moon.svg" alt="Activer le mode nuit" id="toggle-night-mode" class="lune" >
+                
+
+            </ul>
+        </nav>
+</header>
+    <main>
+       
+        <h2 id="page-title"><u>Photo</u></h2>
+        <div>
+            <p class="info-about" onclick="toggleGallery('gallery1')">
+                <b>1 - Première prise en main d’un appareil photo |<i> Juillet 2024</i></b>
+            </p>
+        </div>
+        <div id="gallery1" class="gallery hidden" >
+            <img src="p_1/fleure-bla.png" alt="fleure-bla" onclick="showImage(this)">
+            <img src="p_1/fleure-vio.png" alt="fleure-vio" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0230.JPG" alt="modif_DSC_0230" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0231.JPG" alt="modif_DSC_0231" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0251.JPG" alt="modif_DSC_0251" onclick="showImage(this)">
+            <img src="p_1/gaia.png" alt="gaia" onclick="showImage(this)">
+            <img src="p_1/vano.png" alt="vano" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0166.JPG" alt="modif_DSC_0166" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0185.JPG" alt="modif_DSC_0185" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0186.JPG" alt="modif_DSC_0186" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0191.JPG" alt="foin_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0299_1.JPG" alt="arbre_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0242.JPG" alt="foret_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0244.JPG" alt="chateau_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0246.JPG" alt="chateau_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0248.JPG" alt="cloche_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0253.JPG" alt="cloche_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0262.JPG" alt="chateau_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0261.JPG" alt="gaia_p" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0256.JPG" alt="trefle" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0289_v2.JPG" alt="train" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0294_v2.jpg" alt="wagon" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_02723.JPG" alt="ville" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0296.JPG" alt="guirelande" onclick="showImage(this)"> 
+            <img src="p_1/modif_DSC_0162.JPG" alt="foin" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0303.JPG" alt="champs" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0298.JPG" alt="chat" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0212.JPG" alt="modif_DSC_0212" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0044.jpg" alt="modif_DSC_0044" onclick="showImage(this)">
+            <img src="p_1/DSC_0042 modif.jpg" alt="DSC_0042 modif" onclick="showImage(this)">
+            <img src="p_1/DSC_0083 modif.JPG" alt="DSC_0083 modif" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0169.JPG" alt="modif_DSC_0169" onclick="showImage(this)">
+            <img src="p_1/modif_DSC_0168.JPG" alt="modif_DSC_0168" onclick="showImage(this)">
+        </div>
+         
+          
+        <div><p class="info-about" onclick="toggleGallery('gallery2')">
+            <b>2 - Photographie dans le jardin |<i> Aout 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery2" class="gallery hidden">
+            <img src="p_2/modif_DSC_0162.JPG" alt="modif_DSC_0162" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0177.JPG" alt="modif_DSC_0177" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0181.JPG" alt="modif_DSC_0181" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0182.JPG" alt="modif_DSC_0182" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0191.JPG" alt="modif_DSC_0191" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0198.JPG" alt="modif_DSC_0198" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0200.JPG" alt="modif_DSC_0200" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0204.JPG" alt="modif_DSC_0204" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0205.JPG" alt="modif_DSC_0205" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0215.JPG" alt="modif_DSC_0215" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0213.JPG" alt="modif_DSC_0213" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0231.JPG" alt="modif_DSC_0231" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0234.JPG" alt="modif_DSC_0234" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0239.JPG" alt="modif_DSC_0239" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0243.JPG" alt="modif_DSC_0243" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0249.JPG" alt="modif_DSC_0249" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0256_1.JPG" alt="modif_DSC_0256_1" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0256.JPG" alt="modif_DSC_0256" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0266.JPG" alt="modif_DSC_0266" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0275.JPG" alt="modif_DSC_0275" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0279.JPG" alt="modif_DSC_0279" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0334.JPG" alt="modif_DSC_0334" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0350.JPG" alt="modif_DSC_0350" onclick="showImage(this)">
+            <img src="p_2/DSC_0346.JPG" alt="DSC_0346" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0351.JPG" alt="modif_DSC_0351" onclick="showImage(this)">
+            <img src="p_2/modif_DSC_0377.JPG" alt="modif_DSC_0377" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery3')">
+            <b>3 - Paris JO 2024 et découverte du mode monochromie de l’appareil photo | <i>Aout 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery3" class="gallery hidden">
+            <img src="p_3/DSC_0391.JPG" alt="DSC_0391" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0391.JPG" alt="modif_DSC_0391" onclick="showImage(this)">
+            <img src="p_3/DSC_0397.JPG" alt="DSC_0397" onclick="showImage(this)">
+            <img src="p_3/DSC_0398.JPG" alt="DSC_0398" onclick="showImage(this)">
+            <img src="p_3/DSC_0402.JPG" alt="DSC_0402" onclick="showImage(this)">
+            <img src="p_3/DSC_0403.JPG" alt="DSC_0403" onclick="showImage(this)">
+            <img src="p_3/DSC_0412.JPG" alt="DSC_0412" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0411.JPG" alt="modif_DSC_0411" onclick="showImage(this)">
+            <img src="p_3/DSC_0430.JPG" alt="DSC_0430" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0430.JPG" alt="modif_DSC_0430" onclick="showImage(this)">
+            <img src="p_3/DSC_0436.JPG" alt="DSC_0436" onclick="showImage(this)">
+            <img src="p_3/DSC_0449.JPG" alt="DSC_0449" onclick="showImage(this)">
+            <img src="p_3/DSC_0450.JPG" alt="DSC_0450" onclick="showImage(this)">
+            <img src="p_3/DSC_0455.JPG" alt="DSC_0455" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0449.JPG" alt="modif_DSC_0449" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0406.JPG" alt="modif_DSC_0406" onclick="showImage(this)">
+            <img src="p_3/modif_DSC_0442.JPG" alt="modif_DSC_0442" onclick="showImage(this)">
+            
+           
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery4')">
+            <b>4 - Erasmus #1 : Marseille (Iphone) | <i> Septembre 2023</i></b>
+        </p>
+        </div>
+        <div  id="gallery4" class="gallery hidden"> 
+            <img src="p_4_1\IMG_6138.JPEG" alt="IMG_6138" onclick="showImage(this)">
+            <img src="p_4_1\IMG_6144.JPEG" alt="IMG_6144" onclick="showImage(this)">
+            
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery5')">
+            <b>5 - Erasmus #2 : Cinque Terre (Iphone) | <i>Septembre 2023</i></b>
+        </p>
+        </div>
+        <div  id="gallery5" class="gallery hidden">
+            <img src="p_4_2/IMG_0080.JPG" alt="IMG_0080" onclick="showImage(this)">
+            <img src="p_4_2/IMG_6729.JPEG" alt="IMG_6729" onclick="showImage(this)">
+            <img src="p_4_2/IMG_6732.JPEG" alt="IMG_6732" onclick="showImage(this)">
+            <img src="p_4_2/IMG_6741.JPEG" alt="IMG_6741" onclick="showImage(this)">
+            <img src="p_4_2/IMG_6780.JPEG" alt="IMG_6780" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7062.JPEG" alt="IMG_7062" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7085.JPEG" alt="IMG_7085" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7107.JPEG" alt="IMG_7107" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7131.JPEG" alt="IMG_7131" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7148.JPEG" alt="IMG_7148" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7152.JPEG" alt="IMG_7152" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7157.JPEG" alt="IMG_7157" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7165.JPEG" alt="IMG_7165" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7177.JPEG" alt="IMG_7177" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7185.JPEG" alt="IMG_7185" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7196.JPEG" alt="IMG_7196" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7229.JPEG" alt="IMG_7229" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7238.JPEG" alt="IMG_7238" onclick="showImage(this)">
+            <img src="p_4_2/IMG_7244.JPEG" alt="IMG_7244" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery6')">
+            <b>6 - Erasmus #3 : Bologne (Iphone) | <i>Sep 2023 - Jan 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery6" class="gallery hidden">
+            <img src="p_4_3/IMG_6434.JPEG" alt="IMG_6434" onclick="showImage(this)">
+            <img src="p_4_3/IMG_5039.JPEG" alt="IMG_5039" onclick="showImage(this)">
+            <img src="p_4_3/IMG_5045.JPEG" alt="IMG_5045" onclick="showImage(this)">
+            <img src="p_4_3/IMG_5067.JPEG" alt="IMG_5067" onclick="showImage(this)">
+            <img src="p_4_3/IMG_5132.JPEG" alt="IMG_5132" onclick="showImage(this)">
+            <img src="p_4_3/IMG_5177.JPEG" alt="IMG_5177" onclick="showImage(this)">
+            <img src="p_4_3/IMG_6523.JPEG" alt="IMG_6523" onclick="showImage(this)">
+            <img src="p_4_3/IMG_6541.JPEG" alt="IMG_6541" onclick="showImage(this)">
+            <img src="p_4_3/IMG_6553.JPEG" alt="IMG_6553" onclick="showImage(this)">
+            <img src="p_4_3/IMG_6588.JPEG" alt="IMG_6588" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8087.JPEG" alt="IMG_8087" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8088.JPEG" alt="IMG_8088" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8094.JPEG" alt="IMG_8094" onclick="showImage(this)">
+            <img src="p_4_3/IMG_6616.JPEG" alt="IMG_6616" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7876.JPEG" alt="IMG_7876" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7880.JPEG" alt="IMG_7880" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8201.JPEG" alt="pizza" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7494.JPEG" alt="antenne" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8246.JPEG" alt="IMG_8246" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8536.JPEG" alt="IMG_8536" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8537.JPEG" alt="IMG_8537" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8515.JPEG" alt="IMG_8515" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8527.JPEG" alt="IMG_8527" onclick="showImage(this)">
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery7')">
+            <b>7 - Erasmus #4 : Lamborghini Museum (Iphone) | <i> Oct 2023</i></b>
+        </p>
+        </div>
+        <div  id="gallery7" class="gallery hidden">
+            <img src="p_4_3/IMG_7885.JPEG" alt="IMG_7885" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7959.JPEG" alt="IMG_7959" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8037.JPEG" alt="IMG_8037" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7887.JPEG" alt="IMG_7887" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7888.JPEG" alt="IMG_7888" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7895.JPEG" alt="IMG_7895" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7917.JPEG" alt="IMG_7917" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7931.JPEG" alt="IMG_7931" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7946.JPEG" alt="IMG_7946" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7954.JPEG" alt="IMG_7954" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7964.JPEG" alt="IMG_7964" onclick="showImage(this)">
+            <img src="p_4_3/IMG_7965.jpg" alt="IMG_7965" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8028.JPEG" alt="IMG_8028" onclick="showImage(this)">
+            <img src="p_4_3/IMG_8057.JPEG" alt="IMG_8057" onclick="showImage(this)">
+
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery8')">
+            <b>8 - Erasmus #5 : Venise (Iphone) | <i> Dec 2023</i></b>
+        </p>
+        </div>
+        <div  id="gallery8" class="gallery hidden">
+            <img src="p_4_4/IMG_8551.JPEG" alt="IMG_8551" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8558.JPEG" alt="IMG_8558" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8564.JPEG" alt="IMG_8564" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8572.JPEG" alt="IMG_8572" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8585.JPEG" alt="IMG_8585" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8616.JPEG" alt="IMG_8616" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8624.JPEG" alt="IMG_8624" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8627.JPEG" alt="IMG_8627" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8639.JPEG" alt="IMG_8639" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8602.JPEG" alt="IMG_8602" onclick="showImage(this)">
+            <img src="p_4_4/IMG_8597.JPEG" alt="IMG_8597" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery9')">
+            <b>9 - Erasmus #6 : Rome (Iphone) | <i> Dec 2023</i></b>
+        </p>
+        </div>
+        <div  id="gallery9" class="gallery hidden">
+            <img src="p_4_5/IMG_8696.JPEG" alt="IMG_8696" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8697.JPEG" alt="IMG_8697" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8711.JPEG" alt="IMG_8711" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8721.JPEG" alt="IMG_8721" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8726.JPEG" alt="IMG_8726" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8728.JPEG" alt="IMG_8728" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8752.JPEG" alt="IMG_8752" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8788.JPEG" alt="IMG_8788" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8800.JPEG" alt="IMG_8800" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8812.JPEG" alt="IMG_8812" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8824.JPEG" alt="IMG_8824" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8846.JPEG" alt="IMG_8846" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8871.JPEG" alt="IMG_8871" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8874.JPEG" alt="IMG_8874" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8887.JPEG" alt="IMG_8887" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8896.JPEG" alt="IMG_8896" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8910.JPEG" alt="IMG_8910" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8915.JPEG" alt="IMG_8915" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8921.JPEG" alt="IMG_8921" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8926.JPEG" alt="IMG_8926" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8984.JPEG" alt="IMG_8984" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8781.JPEG" alt="pate" onclick="showImage(this)">
+            <img src="p_4_5/IMG_8988.JPEG" alt="IMG_8988" onclick="showImage(this)">
+            <img src="p_4_5/IMG_9004.JPEG" alt="IMG_9004" onclick="showImage(this)">
+            <img src="p_4_5/IMG_9005.JPEG" alt="IMG_9005" onclick="showImage(this)">
+            <img src="p_4_5/IMG_9008.JPEG" alt="IMG_9008" onclick="showImage(this)">
+            <img src="p_4_5/IMG_1123.JPEG" alt="IMG_1123" onclick="showImage(this)">
+        </div>
+        
+        <div><p class="info-about" onclick="toggleGallery('gallery10')">
+            <b>10 - Erasmus #7 : Florence (Iphone) | <i> Jan 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery10" class="gallery hidden">
+            <img src="p_4_6/IMG_9305.JPEG" alt="IMG_9305" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9313.JPEG" alt="IMG_9313" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9335.JPEG" alt="IMG_9335" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9338.JPEG" alt="IMG_9338" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9343.JPEG" alt="IMG_9343" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9345.JPEG" alt="IMG_9345" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9349.JPEG" alt="IMG_9349" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9351.JPEG" alt="IMG_9351" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9363.JPEG" alt="IMG_9363" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9370.JPEG" alt="IMG_9370" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9364.JPEG" alt="IMG_9364" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9376.JPEG" alt="IMG_9376" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9398.JPEG" alt="IMG_9398" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9407.JPEG" alt="IMG_9407" onclick="showImage(this)">
+            <img src="p_4_6/IMG_9456.JPEG" alt="IMG_9456" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery11')">
+            <b>11 - Erasmus #8 : Padoue (Iphone) | <i>Jan 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery11" class="gallery hidden">
+            <img src="p_4_7/IMG_6529.JPEG" alt="IMG_6529" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6533.JPEG" alt="IMG_6533" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6539.JPEG" alt="IMG_6539" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6556.JPEG" alt="IMG_6556" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6575.JPEG" alt="IMG_6575" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6597.JPEG" alt="IMG_6597" onclick="showImage(this)">
+            <img src="p_4_7/IMG_6607.JPEG" alt="IMG_6607" onclick="showImage(this)">
+            <img src="p_4_7/IMG_9159.JPEG" alt="IMG_9159" onclick="showImage(this)">
+            <img src="p_4_7/IMG_9172.JPEG" alt="IMG_9172" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery12')">
+            <b>12 -  Les chiots (Iphone) | <i> Fév - Mai 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery12" class="gallery hidden">
+            <img src="p_5/chiots/IMG_0906.JPEG" alt="IMG_0906" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_0955.JPEG" alt="IMG_0955" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_0995.JPEG" alt="IMG_0995" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_0997.JPEG" alt="IMG_0997" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_1039.JPEG" alt="IMG_1039" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_1199.JPEG" alt="IMG_1199" onclick="showImage(this)">
+            <img src="p_5/chiots/3181DE97-712F-4777-8191-E9BCA46CE18F.jpg" alt="3181DE97-712F-4777-8191-E9BCA46CE18F" onclick="showImage(this)">
+            <img src="p_5/chiots/IMG_0974.JPG" alt="IMG_0974" onclick="showImage(this)">
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery13')">
+            <b>13 -  Balade en forêt |<i> Oct 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery13" class="gallery hidden">
+            <img src="p_6/modifDSC_0752.JPG" alt="modifDSC_0752" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0757.JPG" alt="modifDSC_0757" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0761.JPG" alt="modifDSC_0761" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0763.JPG" alt="modifDSC_0763" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0765.JPG" alt="modifDSC_0765" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0773.JPG" alt="modifDSC_0773" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0778 .JPG" alt="modifDSC_0778" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0779.JPG" alt="modifDSC_0779" onclick="showImage(this)">
+            <img src="p_6/modifDSC_0785.JPG" alt="modifDSC_0785" onclick="showImage(this)">
+
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery14')">
+            <b>14 -  Sacré-Cœur et ses alentours |<i> Oct 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery14" class="gallery hidden">
+            <img src="p_7/modifDSC_0854.JPG" alt="modifDSC_0854" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0857.JPG" alt="modifDSC_0857" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0866.JPG" alt="modifDSC_0866" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0877.JPG" alt="modifDSC_0877" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0883.JPG" alt="modifDSC_0883" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0886.JPG" alt="modifDSC_0886" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0895.JPG" alt="modifDSC_0895" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0905.JPG" alt="modifDSC_0905" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0907.JPG" alt="modifDSC_0907" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0914.JPG" alt="modifDSC_0914" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0919.JPG" alt="modifDSC_0919" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0923.JPG" alt="modifDSC_0923" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0926.JPG" alt="modifDSC_0926" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0928.JPG" alt="modifDSC_0928" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0929.JPG" alt="modifDSC_0929" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0932.JPG" alt="modifDSC_0932" onclick="showImage(this)">
+            <img src="p_7/modifDSC_0933.JPG" alt="modifDSC_0933" onclick="showImage(this)">
+
+
+        </div>
+            
+            
+        </div>
+        <div id="imageOverlay" class="image-overlay" onclick="hideImage()">
+            <img src="" alt="Agrandissement de l'image">
+        </div>
+
+        <a href="#page-title">
+            <img src="image\logo\Arrow_jaune.svg" alt="Retour en haut" style="transform: rotate(-90deg);" class="back-to-top">
+        </a>
+        
+    </main>
+
+    <footer>
+        <p style="font-family:Sansita;text-align:center;"><i><br>&copy; 2024 Lilian Sauloup</i></p>
+   </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>

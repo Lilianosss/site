@@ -1,0 +1,214 @@
+
+/* Desktop styles */
+@media (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    /* En-tête */
+    header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid transparent;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    height: 88px;
+    padding: 0 32px;
+    margin-top: 0;
+    width: 100%;
+    z-index: 999;
+
+    }
+    .menu-toggle {
+        width: 10vh;
+    }
+    .rectangle-bleu {
+        height: 10vh;
+    }
+    .dropdown-menu {
+        top: 10vh;
+        left: 31.5vw;
+        width: auto;
+        padding: 5;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 3vh;
+        font-family: "Sansita";
+        color:#F5B82E;
+        padding: 8px;
+    }
+    .menu {
+        color:#F5B82E;
+        font-family:Sansita;
+        font-size:2vw;
+        text-align:center;
+    }
+
+    .Home{
+        position: fixed;
+        top: 1vh;
+        left: 0vw; /* Utilisation de vw pour plus de flexibilité */
+        width:8vw;
+        height:8vh;
+    }
+    
+    .lune {
+        position: fixed;
+        top: 1vh;
+        left: 8vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height:8vh;
+    }
+    
+    .Galerie {
+        position: fixed;
+        top: 0.5vh;
+        left: 30vw; /* Ajusté pour mieux s'adapter */
+        width:10vw;
+        height:10vh;
+    }
+    
+    .About {
+        position: fixed;
+        top: 0.2vh;
+        left: 55vw; /* Ajusté pour mieux s'adapter */
+        width:11vw;
+        height:11vh;
+    }
+    
+    .insta {
+        position: fixed;
+        top: 1.5vh;
+        left: 83vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height:8vh;
+    }
+    
+    .linkedin {
+        position: fixed;
+        top: 1.5vh;
+        left: 90vw; /* Ajusté pour mieux s'adapter */
+        width:8vw;
+        height:8vh;
+        
+    }
+
+
+    h2 {
+        font-size: 6vh;
+        margin-top: 10vh;
+    }
+
+    p {
+        font-size: 3vh;
+        margin: 2vh 0;
+    }
+
+    .moi {
+        width: 60vh;
+        margin-left: 70vh;
+    }
+    .intro{
+        padding-left: 15vw;
+        padding-right: 15vw;
+
+    }
+    .info-about2 {
+        font-family:"Sansita";
+        font-size:4vh;
+        text-align:center;
+     }
+
+     /* Effet au survol des images */
+    
+
+
+    /* Remove table default styling */
+    table {
+        border-collapse: collapse;
+        margin: 0 auto; /* Center the table */
+    }
+
+    td {
+        padding: 10px;
+        text-align: center; /* Align the text and images to the center */
+    }
+
+    /* Styling for the navigation links */
+    .nav-menu table td a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #F5B82E;
+        padding: 5px 10px;
+        display: block; /* Makes the whole cell clickable */
+    }
+
+    /* Arrow image styles */
+    .nav-menu table td a img.arrow {
+        width: 50px; /* Adjust the width of the arrow image */
+        height: auto;
+        vertical-align: middle; /* Align the arrow image with text */
+    }
+
+    /* Hover effect for the links */
+    .nav-menu table td a:hover {
+        background-color: #3c4ab7;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .gallery {
+        margin-top: 10px;
+        margin: 0 auto; /* Centre horizontalement */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center; /* Centre les images dans la galerie */
+        align-items: center; /* Centre les images verticalement */
+    }
+
+    .gallery img {
+        width: 300px;
+        height: auto;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: transform 0.3s ease; /* Animation au survol */
+    }
+
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Masque la galerie par défaut */
+    .hidden {
+        display: none;
+    }
+
+    .info-about {
+        font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 10px 20px; /* Ajoute du padding pour ressembler à un bouton */
+            background-color: #ffffff; /* Couleur de fond pour le bouton */
+            border-radius: 5px; /* Arrondir les bords */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Ombre en dessous */
+            transition: box-shadow 0.3s ease, transform 0.3s ease; /* Animation d'ombre et de profondeur */
+    }
+    /* Style du bouton en mode nuit */
+    .night-mode .info-about {
+        background-color: #1b1b1d; /* Couleur de fond pour le bouton en mode nuit */
+        color: #d6d6d6; /* Texte en blanc pour contraster avec le fond noir */
+        box-shadow: 0px 4px 6px #0c0d12; /* Ombre claire pour le mode nuit */
+    }
+
+
+
+
+
+}

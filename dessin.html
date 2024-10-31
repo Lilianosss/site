@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian Sauloup - Dessin</title>
+    <link rel="icon" href="image/logo/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="police.css">
+    <link rel="stylesheet" href="tablette.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sansita+One" />
+    
+
+</head>
+
+<body>
+    <header>
+    
+<div class="rectangle-bleu"></div>
+        <nav>
+            <ul>
+                <a href="index.html"> 
+                    <img src="image/logo/Home.svg" alt="logo maison" class="Home">
+                </a>
+                    <img src="image\logo\Galerie.svg" alt="galerie" class="menu-toggle Galerie">
+                    
+                    <div class="dropdown-menu">
+                        <a href="photo.html" > <p class="menu">Photo</p></a>
+                        <a href="dessin.html" > <p class="menu">Dessin</p></a>
+                        <a href="modelisation.html" > <p class="menu">Modélisation</p></a>
+                    </div>
+                    
+                <a href="about.html">
+                    <img src="image\logo\À propos.svg" alt="à propos" class="About">
+                </a>
+                <a href="https://www.instagram.com/lilian_s94" target="_blank">
+                    <img src="image/logo/Instagram.svg" alt="logo instagram" class="insta">
+                </a>
+                <a href="https://fr.linkedin.com/in/lilian-sauloup-47181b272" target="_blank">
+                    <img src="image/logo/Linkedin.svg" alt="logo linkedin" class="linkedin">
+                </a>
+                <img src="image/logo/Moon.svg" alt="Activer le mode nuit" id="toggle-night-mode" class="lune" >
+                
+
+            </ul>
+        </nav>
+</header>
+    <main>
+       
+        <h2 id="page-title"><u>Dessin</u></h2>
+        <div>
+            <p class="info-about" onclick="toggleGallery('gallery1')">
+                <b>1 - Des paysages | <i>2022 - 2024</i></b>
+                
+            </p>
+        </div>
+        <div id="gallery1" class="gallery hidden" >
+            <img src="image\dessin\paysage\poisson.jpg" alt="poisson" onclick="showImage(this)">
+            <img src="image\dessin\paysage\nuit.jpg" alt="falaise" onclick="showImage(this)">
+            <img src="image\dessin\paysage\peche.jpg" alt="phare" onclick="showImage(this)">
+            <img src="image\dessin\paysage\paysage.jpg" alt="montagne" onclick="showImage(this)">
+            <img src="image\dessin\paysage\crabe.png" alt="ocean" onclick="showImage(this)">
+            <img src="image\dessin\paysage\volcan.png" alt="île" onclick="showImage(this)">
+            <img src="image\dessin\paysage\villeperdpective.jpg" alt="perspective" onclick="showImage(this)">
+            <img src="image\dessin\paysage\projeto.jpg" alt="île flotante" onclick="showImage(this)">
+            <img src="image\dessin\paysage\IMG_0578.JPG" alt="arbre géant" onclick="showImage(this)">
+        </div>
+         
+        <div><p class="info-about" onclick="toggleGallery('gallery2')">
+            <b>2 - Décors du jeu BZPTG | <i>2022</i></b>
+        </p>
+        </div>
+        <div  id="gallery2" class="gallery hidden">
+            <img src="image\dessin\jeu\BZPTG\Chambre_avec_camera.jpg" alt="chambre" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\bus207.jpg" alt="bus" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\garage.jpg" alt="garage" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\cave.jpg" alt="cave" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\mairie.jpg" alt="arret de bus" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\Voturefin.jpg" alt="voiture" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\hdvlqb.jpg" alt="mairie" onclick="showImage(this)">
+            <img src="image\dessin\jeu\BZPTG\Hall14.jpg" alt="hall" onclick="showImage(this)">
+           
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery3')">
+            <b>3 - Décors du jeu d'Anaelle | <i>2022</i></b>
+        </p>
+        </div>
+        <div  id="gallery3" class="gallery hidden">
+            <img src="image\dessin\jeu\Ana\emba.jpg" alt="embarquation" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\classe1.jpg" alt="classe 1" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\classeEco.jpg" alt="classe eco" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\couloir1.jpg" alt="couloir 1" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\trappe.jpg" alt="une trappe" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\bar.jpg" alt="bar" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\pilotage.jpg" alt="cockpit" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\sallederepostest.jpg" alt="salle de repos" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\toilette.jpg" alt="toilette" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\couloir2.jpg" alt="couloir 2" onclick="showImage(this)">
+            <img src="image\dessin\jeu\Ana\souteavecbombz.jpg" alt="soute avec bombe" onclick="showImage(this)">
+            
+           
+        </div>
+
+        <div><p class="info-about" onclick="toggleGallery('gallery4')">
+            <b>4 - Majoritairement quand je m'ennuie | <i>2022 - 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery4" class="gallery hidden">
+            <img src="image\dessin\reste\anaelle portrait.jpg" alt="portrait anaelle" onclick="showImage(this)">
+            <img src="image\dessin\reste\extincteur2.jpg" alt="extincteur" onclick="showImage(this)">
+            <img src="image\dessin\reste\ville.jpg" alt="ville" onclick="showImage(this)">
+            <img src="image\dessin\reste\monstremalls.jpg" alt="monstre 1" onclick="showImage(this)">
+            <img src="image\dessin\reste\monqtrecaro1.jpg" alt="monstre 2" onclick="showImage(this)">
+            <img src="image\dessin\reste\champignons.jpg" alt="champignon" onclick="showImage(this)">
+            <img src="image\dessin\reste\vase.jpg" alt="vase" onclick="showImage(this)">
+            <img src="image\dessin\reste\donuts.jpg" alt="donuts" onclick="showImage(this)">
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery5')">
+            <b>5 - Découverte de Procreate | <i>2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery5" class="gallery hidden">
+            <img src="image/dessin/procreate/Albert.jpg" alt="Albert" onclick="showImage(this)">
+            <img src="image/dessin/procreate/Camping_De_Nuit.jpg" alt="Camping De Nuit" onclick="showImage(this)">
+            <img src="image/dessin/procreate/demon.jpg" alt="demon" onclick="showImage(this)">
+            <img src="image/dessin/procreate/papi.jpg" alt="papi" onclick="showImage(this)">
+            <img src="image/dessin/procreate/Glace.jpg" alt="Glace" onclick="showImage(this)">
+            <img src="image/dessin/procreate/fruit.png" alt="fruit" onclick="showImage(this)">
+            <img src="image/dessin/procreate/fruit2.JPEG" alt="fruit2" onclick="showImage(this)">
+            <img src="image/dessin/procreate/Anamourail.jpg" alt="Anamourail" onclick="showImage(this)">
+            <img src="image/dessin/procreate/wilfried.PNG" alt="wilfried" onclick="showImage(this)">
+            <img src="image/dessin/procreate/rando.jpg" alt="rando" onclick="showImage(this)">
+            <img src="image/dessin/procreate/pirate.jpg" alt="pirate" onclick="showImage(this)">
+            <img src="image/dessin/procreate/Jean.jpg" alt="Jean" onclick="showImage(this)">
+            <img src="image/dessin/procreate/dome.jpg" alt="dome" onclick="showImage(this)">
+            <img src="image/dessin/procreate/gaspard.jpg" alt="gaspard" onclick="showImage(this)">
+            <img src="image/dessin/procreate/mario.jpg" alt="mario" onclick="showImage(this)">
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery6')">
+            <b>6 - Les Lilimojis | <i> sept 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery6" class="gallery hidden">
+            <img src="image/dessin/Lilimojis/Lili.jpg" alt="Lili" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliange.jpg" alt="Liliange" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliblasé.jpg" alt="Liliblasé" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliboom.jpg" alt="Liliboom" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilicaché.jpg" alt="Lilicaché" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliclasse.jpg" alt="Liliclasse" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilicoeur.jpg" alt="Lilicoeur" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliconfus.jpg" alt="Liliconfus" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilidodo.jpg" alt="Lilidodo" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliencouragement.jpg" alt="Liliencouragement" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilifete.jpg" alt="Lilifete" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liligene.jpg" alt="Liligene" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilihehe.jpg" alt="Lilihehe" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lililove.jpg" alt="Lililove" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilimignon.jpg" alt="Lilimignon" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilimort.jpg" alt="Lilimort" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilimuet.jpg" alt="Lilimuet" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilirage.jpg" alt="Lilirage" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilirire.jpg" alt="Lilirire" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliroi.jpg" alt="Liliroi" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliseptique.jpg" alt="Liliseptique" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Liliseum.jpg" alt="Liliseum" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilishy.jpg" alt="Lilishy" onclick="showImage(this)">
+            <img src="image/dessin/Lilimojis/Lilitriste.jpg" alt="Lilitriste" onclick="showImage(this)">
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery7')">
+            <b>7 - Les Anamojis | <i> sept 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery7" class="gallery hidden">
+            <img src="image/dessin/anamojis/Anabase.png" alt="Anabase" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anaboom.jpg" alt="Anaboom" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anacaché.jpg" alt="Anacaché" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anacoeur.jpg" alt="Anacoeur" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anaencourage.jpg" alt="Anaencourage" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anafete.jpg" alt="Anafete" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anagene.jpg" alt="Anagene" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anahehe.jpg" alt="Anahehe" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anajoie.jpg" alt="Anajoie" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Analove.jpg" alt="Analove" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anamhh.JPG" alt="Anamhh" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anamort.jpg" alt="Anamort" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anange.jpg" alt="Anange" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anange2.jpg" alt="Anange2" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anarage.jpg" alt="Anarage" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anaseum.jpg" alt="Anaseum" onclick="showImage(this)">
+            <img src="image/dessin/anamojis/Anatriste.jpg" alt="Anatriste" onclick="showImage(this)">
+        </div>
+        <div><p class="info-about" onclick="toggleGallery('gallery8')">
+            <b>8 - Les Amimojis | <i> sept 2024</i></b>
+        </p>
+        </div>
+        <div  id="gallery8" class="gallery hidden">
+        <img src="image/dessin/mojis/all.png" alt="All" onclick="showImage(this)">
+        <img src="image/dessin/mojis/moi.PNG" alt="Moi" onclick="showImage(this)">
+        <img src="image/dessin/mojis/alec.PNG" alt="Alec" onclick="showImage(this)">
+        <img src="image/dessin/mojis/aline.PNG" alt="Aline" onclick="showImage(this)">
+        <img src="image/dessin/mojis/ana.PNG" alt="Ana" onclick="showImage(this)">
+        <img src="image/dessin/mojis/antoine.PNG" alt="Antoine" onclick="showImage(this)">
+        <img src="image/dessin/mojis/farah.PNG" alt="Farah" onclick="showImage(this)">
+        <img src="image/dessin/mojis/aurelien.PNG" alt="Aurélien" onclick="showImage(this)">
+        <img src="image/dessin/mojis/caro.PNG" alt="Caro" onclick="showImage(this)">
+        <img src="image/dessin/mojis/fab.PNG" alt="Fab" onclick="showImage(this)">
+        <img src="image/dessin/mojis/cécile.PNG" alt="Cécile" onclick="showImage(this)">
+        <img src="image/dessin/mojis/clau.PNG" alt="Clau" onclick="showImage(this)">
+        <img src="image/dessin/mojis/gab.PNG" alt="Gab" onclick="showImage(this)">
+        <img src="image/dessin/mojis/greg.PNG" alt="Greg" onclick="showImage(this)">
+        <img src="image/dessin/mojis/iris.PNG" alt="Iris" onclick="showImage(this)">
+        <img src="image/dessin/mojis/jade.PNG" alt="Jade" onclick="showImage(this)">
+        <img src="image/dessin/mojis/livia.PNG" alt="Livia" onclick="showImage(this)">
+        <img src="image/dessin/mojis/eva.PNG" alt="Eva" onclick="showImage(this)">
+        <img src="image/dessin/mojis/marine.PNG" alt="Marine" onclick="showImage(this)">
+        <img src="image/dessin/mojis/méa.PNG" alt="Méa" onclick="showImage(this)">
+        <img src="image/dessin/mojis/mémé.PNG" alt="Mémé" onclick="showImage(this)">
+        <img src="image/dessin/mojis/moha.PNG" alt="Moha" onclick="showImage(this)">
+        <img src="image/dessin/mojis/Mojos.PNG" alt="Mojos" onclick="showImage(this)">
+        <img src="image/dessin/mojis/nat.PNG" alt="Nat" onclick="showImage(this)">
+        <img src="image/dessin/mojis/sarah.PNG" alt="Sarah" onclick="showImage(this)">
+        <img src="image/dessin/mojis/shanna.PNG" alt="Shanna" onclick="showImage(this)">
+        <img src="image/dessin/mojis/thais.PNG" alt="Thais" onclick="showImage(this)">
+        <img src="image/dessin/mojis/terence.PNG" alt="Terence" onclick="showImage(this)">      
+        <img src="image/dessin/mojis/arsene.PNG" alt="Arsène" onclick="showImage(this)">
+        <img src="image/dessin/mojis/ugo.PNG" alt="Ugo" onclick="showImage(this)">
+        <img src="image/dessin/mojis/vano.PNG" alt="Vano" onclick="showImage(this)">
+        <img src="image/dessin/mojis/gaia.PNG" alt="Gaia" onclick="showImage(this)">
+        <img src="image/dessin/mojis/oiseaux.PNG" alt="Oiseaux" onclick="showImage(this)">
+        <img src="image/dessin/mojis/praline.PNG" alt="Praline" onclick="showImage(this)">
+        </div>
+
+            
+        </div>
+        <div id="imageOverlay" class="image-overlay" onclick="hideImage()">
+            <img src="" alt="Agrandissement de l'image">
+        </div>
+
+        <a href="#page-title">
+            <img src="image\logo\Arrow_jaune.svg" alt="Retour en haut" style="transform: rotate(-90deg);" class="back-to-top">
+        </a>
+        
+    </main>
+
+    <footer>
+        <p style="font-family:Sansita;text-align:center;"><i><br>&copy; 2024 Lilian Sauloup</i></p>
+   </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>
